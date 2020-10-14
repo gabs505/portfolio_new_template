@@ -1,0 +1,20 @@
+@media only screen and (max-width:1020px){
+    .main-shapes{
+        width:90vw;
+        left:calc(50% - 45vw);
+    }
+}
+
+@media only screen and (max-width:900px){
+    .main-shapes{
+        display:none;
+    }
+
+    .hello-content{
+        color:white;
+    }
+}
+
+@media only screen and (max-width:846px){
+    /* burger menu */
+}
