@@ -1,17 +1,18 @@
 .form-wrapper{
-    height:80vh;
+    /* height:80vh; */
     background-color: #423E3E;
     display:flex;
     align-items:center;
     justify-content:center;
 }
 form{
-    padding:20px;
+    padding:10px;
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:space-around;
     height:60vh;
+    max-height:400px;
     width:100%;
     
 }

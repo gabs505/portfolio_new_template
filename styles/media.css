@@ -3,9 +3,29 @@
         width:90vw;
         left:calc(50% - 45vw);
     }
+
+    .wrench{
+
+    }
+
+    .about-me-section{
+        font-size:0.8rem;
+    }
 }
 
 @media only screen and (max-width:900px){
+    /* burger menu */
+    .main-section{
+        margin-top:0;
+    }
+
+    .hello-content{
+        max-width:90%;
+    }
+    .nav{
+        display:none;
+    }
+
     .main-shapes{
         display:none;
     }
@@ -16,5 +36,68 @@
 }
 
 @media only screen and (max-width:846px){
-    /* burger menu */
+    
+    .gear{
+        display:none;
+    }
+
+    .about-me-section{
+        min-height:500px;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    
+    
+    .skill{
+        width:100px;
+        font-size:1rem;
+    }
+
+    .skills-header{
+        margin-top:100px;
+    }
+
+    .ending{
+        height:100px;
+    }
+
+
+    .wrench{
+        width:80%;
+        left:10px;
+        bottom:-100px;
+        min-width:400px;
+    }
+
+    .about-me-container{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .profile-photo{
+        flex:0 1 70vw;
+        height:70vw;
+    }
+}
+
+
+@media only screen and (max-width:376px){
+
+    .hello-content{
+        font-size:0.6rem;
+    }
+    .skills-section{
+        min-height:500px;
+    }
+    .skill{
+        width:80px;
+        font-size:0.7rem;
+    }
+    .wrench{
+        min-width:200px;
+        top:6px;
+        left:50px;
+    }
 }
