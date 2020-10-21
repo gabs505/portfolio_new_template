@@ -1,5 +1,15 @@
 @media only screen and (max-width:1020px){
-    .main-shapes{
+    .shape-1{
+        width:45vw;
+        left:calc(50% - 22.5vw);
+    }
+
+    .shape-2{
+        width:63vw;
+        left:calc(50% - 31.5vw);
+    }
+
+    .shape-3{
         width:90vw;
         left:calc(50% - 45vw);
     }
@@ -26,7 +36,7 @@
         display:none;
     }
 
-    .main-shapes{
+    .main-shape{
         display:none;
     }
 
@@ -88,16 +98,30 @@
     .hello-content{
         font-size:0.6rem;
     }
+
+    .shape-top, .shape-bottom{
+        visibility: visible;
+    }
     .skills-section{
         min-height:500px;
     }
+
+    .skills-content{
+        width:100%;
+    }
+
     .skill{
         width:80px;
         font-size:0.7rem;
+        margin:5px;
     }
     .wrench{
         min-width:200px;
         top:6px;
         left:50px;
     }
+}
+
+@media only screen and (max-width:281px){
+    
 }

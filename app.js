@@ -40,6 +40,27 @@ for(let i=0;i<projectCards.length;i++){
 
 }
 
+$(".shape-1").bind("animationend", function(){
+    $(this).removeClass("shape-animation")  
+  })
+$(".shape-3").bind("animationend", function(){
+    $(this).removeClass("shape-animation")  
+  })
+$(".shape-2").bind("animationend", function(){
+    $(this).removeClass("shape2-animation")  
+  })
+
+$(".shape-1").hover(function(){
+    $(this).addClass("shape-animation");        
+  })
+$(".shape-3").hover(function(){
+    $(this).addClass("shape-animation");        
+  })
+$(".shape-2").hover(function(){
+    $(this).addClass("shape2-animation");        
+  })
+
+
 
 
     
