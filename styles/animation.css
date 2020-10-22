@@ -115,6 +115,57 @@
     }
 }
 
-.gear-animation{
+
+
+h1[data-scroll="in"],h2[data-scroll="in"]{
+    opacity:1;
+    transition:all 1.5s;
+}
+
+
+
+.line[data-scroll="in"]{
+    transform:scale(1);
+    transform-origin:left;
+    transition:transform 1s;
+    
+}
+
+.skill[data-scroll="in"],.tool[data-scroll="in"]{
+    transform:rotate(0);
+    transform:scale(1);
+    transition:0.7s ease-in;
+}
+
+.gear[data-scroll="in"]
+{  
     animation:gearAnimation 10s infinite linear;
+    animation-delay:1.5s;
+}
+
+.project-description p[data-scroll="in"],.about-me-text-wrapper p[data-scroll="in"]{
+    top:0;
+    opacity:1;
+    transition:1s ease-in-out;
+
+}
+
+
+
+.project-image[data-scroll="in"]
+{
+    opacity:1;
+    transition:opacity 1s ease-in-out;
+}
+
+.profile-photo[data-scroll="in"]
+{
+    transform: translateX(0);
+    transition:1s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+
+.contact-me[data-scroll="in"]{
+    transform:scale(1);
+    transition:2s;
 }
