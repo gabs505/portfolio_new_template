@@ -43,6 +43,49 @@
 
 @media only screen and (max-width:900px){
     /* burger menu */
+    .burger-menu{
+        display:inline-block;
+    }
+    .nav{
+        
+        height:100vh;
+        z-index:100;
+        background-color: white;
+        width:100%;
+        z-index:150;
+        background-color:transparent;
+        display:flex;
+        justify-content: flex-end;
+    }
+    .nav-wrapper{
+        position:fixed;
+        height:100vh;
+        top:0;
+        left:100vw;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin:0 auto;
+        right:unset;
+        width:100%;
+        background-color:rgb(206, 227, 255);
+        transition:transform 0.5s ease-out;
+        
+        
+    }
+
+    .nav-wrapper ul{
+        padding:0;
+    }
+    .nav-item{
+        display:block;
+        margin:0;
+    }
+    .nav-item a{
+        display:block;
+        color:black;       
+    }
+    
     .main-section{
         margin-top:0;
         overflow:hidden;
@@ -51,9 +94,7 @@
     .hello-content{
         max-width:90%;
     }
-    .nav{
-        display:none;
-    }
+    
 
     .main-shape{
         display:none;

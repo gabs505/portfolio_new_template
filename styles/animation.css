@@ -117,7 +117,7 @@
 
 
 
-h1[data-scroll="in"],h2[data-scroll="in"]{
+h1[data-scroll="in"],h2[data-scroll="in"],.welcome-paragraph[data-scroll="in"]{
     opacity:1;
     transition:all 1.5s;
 }
