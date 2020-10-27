@@ -55,7 +55,8 @@ body{
     height:40px;
     padding:0px;
     background-color:#4F4A4A;
-    z-index:100;
+    z-index:300;
+    
 }
 
 .active{
@@ -66,12 +67,14 @@ body{
     position:fixed;
     min-width:70%;
     right:0;
+    
 }
 .nav-wrapper ul{
     
     list-style: none;
     margin:10px;
     font-size:20px;
+    
 }
 
 
@@ -84,6 +87,7 @@ body{
     position:relative;
     text-align: center;
     color:white;
+    z-index:300;
 }
 
 
@@ -99,15 +103,25 @@ body{
     left:-10px;
     z-index:-100;
     transform:scaleX(0);
-    transition: 0.25s linear;
+    
 
 }
 
 .nav-item:hover:before,
 .nav-item:focus:before{
     transform:scaleX(1);
+    transition: 0.25s linear;
 }
 
+.nav-item.highlited:before
+{
+    transform:scaleX(1);
+    
+}
+
+.nav-item.highlited a{
+    color:black;
+}
 
 .nav-item a{
     display:block;
@@ -150,9 +164,13 @@ body{
     background-color:transparent; 
     border:0;
     outline:0.5px solid transparent;
-    z-index:150;
+    z-index:200;
     height:50px;
     
+}
+
+.burger-menu:hover{
+    cursor:pointer;
 }
 
 .burger-box{
@@ -741,6 +759,7 @@ h2{
 .form-wrapper{
     margin-top:50px;
     flex:0 1 400px;
+    min-height:360px;
     max-height:500px;
     
 }
