@@ -167,6 +167,7 @@ body{
     z-index:200;
     height:50px;
     
+    
 }
 
 .burger-menu:hover{
@@ -448,6 +449,7 @@ h2{
     background-color:#EFE4BC;
     position:relative;
     min-height:700px;
+    padding-bottom:30px;
     
 }
 
@@ -479,6 +481,7 @@ h2{
 }
 
 .skill{
+    
     z-index:20;
     width:140px;
     padding:15px;
@@ -490,6 +493,11 @@ h2{
     font-size:1.5rem;
     transform:rotate(45deg);
     transform:scale(0.8);
+}
+
+
+.skill-basic{
+    background-color:#60b17f;
 }
 
 .gear{
@@ -569,7 +577,7 @@ h2{
     background-clip: border-box;
     background-position:center;
     background-image: url('../img/curved_line_small.svg');
-    height:70px;
+    height:80px;
     width:100%;
     z-index:20;
     transform: scale(0.5);
@@ -579,6 +587,7 @@ h2{
     grid-area:text;
     text-align:justify;
     min-height:400px;
+    font-size:1.5rem;
     
 }
 
@@ -768,7 +777,7 @@ h2{
 .footer{
     background-color: rgb(37, 37, 37);
     width:100%;
-    height:200px;
+    height:250px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -804,6 +813,16 @@ h2{
 .icon{
     width:40px;
     height:40px;
+}
+
+.codewars-img{
+    margin:20px 0;
+    display:flex;
+    justify-content:center;
+}
+
+.codewars-img img{
+    max-width:90%;
 }
 
 .footer-text{
