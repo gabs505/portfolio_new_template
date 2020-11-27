@@ -8,5 +8,5 @@ if(isset($_POST['submit'])){
 
     $mailTo = "gaba505@o2.pl"
     mail($mailTo, 'test', $message);
-    header("Location: index.php")
+    header("Location: index.php?mailsend");
 }
