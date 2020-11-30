@@ -5,45 +5,20 @@
 body{
     margin:0;
     padding:0;
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Titillium Web', sans-serif;
     color:black
 }
 
-/* MODAL */
-.visible{
-    pointer-events:initital;
+h1{
+    font-size:3em;
+    margin:20px 0;
+    opacity:0;
 }
-.modal-wrap{
-    height:100vh;
-    pointer-events:none;
-    position:fixed;
-    width:100vw;
-    z-index:110;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
+h2{
+    font-size:2.5em;
+    margin:10px 0;
+    opacity:0;
     
-}
-
-.mask{
-    background:rgba(0, 0, 0, 0.5);
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100vh;
-}
-
-.modal{
-    max-width:700px;
-    width:700%;
-    align-items: center;
-    background-color:white;
-    height:100vh;
-    z-index:200;
 }
 
 /* NAV */
@@ -53,7 +28,7 @@ body{
     top:0;
     right:0;
     height:40px;
-    padding:0px;
+    padding:0;
     background-color:#4F4A4A;
     z-index:300;
     
@@ -76,9 +51,6 @@ body{
     font-size:20px;
     
 }
-
-
-
 
 .nav-item{
     width:110px;
@@ -158,6 +130,8 @@ body{
     background-color:rgb(195, 214, 248);
 }
 
+/*Burger menu*/
+
 .burger-menu{
     display:none;
     padding:20px;
@@ -178,7 +152,6 @@ body{
     display:inline-block;
     width:40px;
     height:30px;
-    
     position:relative;
 }
 
@@ -243,19 +216,6 @@ body{
 }
 
 
-h1{
-    font-size:3em;
-    
-    margin:20px 0;
-    opacity:0;
-}
-h2{
-    font-size:2.5em;
-    margin:10px 0;
-    opacity:0;
-    
-}
-
 .welcome-paragraph{
     margin:20px 0;
     font-size:2em;
@@ -280,6 +240,7 @@ h2{
 .hello-content h1, .hello-content h2{
     z-index:70;
 }
+
 .main-shapes{
    
     width:1000px;
@@ -288,55 +249,7 @@ h2{
     
 }
 
-/* .main-shape{
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position:center;
-    
-    margin-top:-30px;
-    position:absolute;
-    
-}
-
-.shape-1{
-    
-    background-image: url("../img/main-shape-1.png");
-    z-index:50;
-    width:500px;
-    height:50vh;
-    min-height:200px;
-    left:calc(50% - 250px);
-    top:calc(50% - 25vh);
-    margin-top:20px;
-}
-
-.shape-2{
-    
-    background-image: url("../img/main-shape-2.png");
-    z-index:40;
-    width:700px;
-    height:70vh;
-    min-height:280px;
-    left:calc(50% - 350px);
-    top:calc(50% - 35vh);
-    margin-top:20px;
-}
-
-.shape-3{
-    
-    background-image: url("../img/main-shape-3.png");
-    z-index:30;
-    width:1000px;
-    height:100vh;
-    min-height:400px;
-    left:calc(50% - 500px);
-    top:calc(50% - 45vh);
-    margin-top:10px;
-} */
-
 .main-shape{
-    
-    /* margin-top:-30px; */
     position:absolute;
     
 }
@@ -352,9 +265,6 @@ h2{
     margin-top:20px;
     
 }
-
-
-
 
 .shape-2{
     
@@ -377,8 +287,6 @@ h2{
     top:calc(50% - 45vh);
     margin-top:10px;
 }
-
-
 
 .shape-top{
     position:absolute;
@@ -401,25 +309,20 @@ h2{
 /* ENDINGS */
 
 .ending{
-    background-size:cover;
+    background:no-repeat bottom left / cover border-box;
+    /* background-size:cover;
     background-repeat: no-repeat;
     background-clip: border-box;
-    background-position:bottom left;
+    background-position:bottom left; */
     height:100px;
     width:100%;
     z-index:20;
     position:relative;
 }
-.grey-ending{
+.beige-ending{
     background-color:white;
-    background-image: url('../img/div_bottom_grey.svg');
+    background-image: url('../img/div_bottom_beige.svg');
 
-}
-
-.white-ending-1{
-
-    background-color:#EFE4BC;
-    background-image: url('../img/div_bottom_white.svg');
 }
 
 .dark-grey-ending{
@@ -435,10 +338,10 @@ h2{
     background-image: url('../img/div_bottom_dark.svg');
 
 }
-.grey-ending-2{
+.beige-ending-2{
 
     background-color:#4F4A4A;
-    background-image: url('../img/div_bottom_grey.svg');
+    background-image: url('../img/div_bottom_beige.svg');
 
 }
 
@@ -459,7 +362,6 @@ h2{
     flex-direction: column;
     margin:0 auto;
     align-items: center;
-    
     justify-content: center;
 }
 
@@ -491,8 +393,8 @@ h2{
     text-align:center;
     color:white;
     font-size:1.5rem;
-    transform:rotate(45deg);
     transform:scale(0.8);
+    
 }
 
 
@@ -534,8 +436,6 @@ h2{
     padding-top:20px;
     
 }
-
-
 
 .projects-header{
     text-align: center;
@@ -605,13 +505,10 @@ h2{
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
-    opacity:0;
-    
-    
+    opacity:0;  
 }
 
 .project-cover{
-    
     justify-content:center;
     align-items:center;
     display:none;
@@ -643,14 +540,12 @@ h2{
     width:140px;
     height:50px;
     padding:5px;
-    /* background-color:#626A80; */
     border:1px solid #E2BABA;
     border-radius:20px;
     margin:10px;
     text-align:center;
     color:white;
     font-size:1.5rem;
-    transform:rotate(45deg);
     transform:scale(0.8);
 }
 
@@ -701,8 +596,6 @@ h2{
 .hidden{
     visibility:hidden;
 }
-
-
 
 /* ABOUT ME SECTION */
 

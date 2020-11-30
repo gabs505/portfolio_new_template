@@ -1,13 +1,14 @@
 @media only screen and (min-width:1210px){
+    .project{
+        column-gap:50px;
+    }
+
     .contact-wrapper{
         width:70%;
         justify-content: space-between;
     }
 
-    .project{
-        
-        column-gap:50px;
-    }
+    
 }
 @media only screen and (max-width:1020px){
     .shape-1{
@@ -25,10 +26,6 @@
         left:calc(50% - 45vw);
     }
 
-    .wrench{
-
-    }
-
     .project-image{
         background-position:top left;
     }
@@ -42,7 +39,7 @@
 }
 
 @media only screen and (max-width:900px){
-    /* burger menu */
+    /* Burger menu */
     .burger-menu{
         display:inline-block;
     }
@@ -66,14 +63,13 @@
         width:100%;
         background-color:rgb(206, 227, 255);
         transition:transform 0.5s ease-out;
-        
-        
-        
+         
     }
 
     .nav-wrapper ul{
         padding:0;
     }
+
     .nav-item{
         display:block;
         margin:0;
@@ -92,7 +88,6 @@
         max-width:90%;
     }
     
-
     .main-shape{
         display:none;
     }
@@ -106,7 +101,6 @@
     }
 
     .project{
-        
         column-gap:20px;
     }
     .tool{
@@ -127,12 +121,6 @@
 
     .project{
         padding:50px 0;
-        /* grid-template:30% auto 20% / 1fr 1fr;
-        grid-template-areas: "text text"
-        "image image"
-        "tools tools";
-        
-        column-gap:0; */
         display:flex;
         flex-wrap:wrap;
         
@@ -177,7 +165,10 @@
 
 @media only screen and (max-width:767px){
     
-    
+    .ending{
+        height:100px;
+    }
+
     .skill{
         width:100px;
         font-size:1rem;
@@ -186,11 +177,6 @@
     .skills-header{
         margin-top:100px;
     }
-
-    .ending{
-        height:100px;
-    }
-
 
     .wrench{
         width:80%;

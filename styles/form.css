@@ -1,5 +1,4 @@
 .form-wrapper{
-    /* height:80vh; */
     background-color: #423E3E;
     display:flex;
     align-items:center;
@@ -50,9 +49,7 @@ textarea{
 }
 
 .input-el:focus{
-    outline:0;
-    border:2px solid #E2BABA;
-    padding: calc(1em - 1px);
+    outline:1px solid #E2BABA;
 }
 
 
@@ -68,8 +65,6 @@ textarea{
     color:white;
     border:1px solid #E2BABA;
     text-align: center;
-    
-
 
 }
 
