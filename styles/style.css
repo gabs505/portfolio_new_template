@@ -486,7 +486,7 @@ h2{
 .project-description{
     grid-area:text;
     text-align:justify;
-    min-height:400px;
+    min-height:500px;
     font-size:1.3rem;
     
 }
